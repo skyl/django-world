@@ -1,3 +1,6 @@
+# All of this can be found at http://geodjango.org/docs/tutorial.html
+# help me keep it up to date!
+
 from django.contrib.gis.db import models
 
 class WorldBorders(models.Model):
