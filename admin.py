@@ -1,5 +1,7 @@
-from django.contrib.gis import admin
-from models import WorldBorders
+from django.contrib import admin
+from olwidget.admin import GeoModelAdmin
 
-admin.site.register(WorldBorders, admin.GeoModelAdmin)
+from world.models import WorldBorders
+
+admin.site.register(WorldBorders, GeoModelAdmin)
 
